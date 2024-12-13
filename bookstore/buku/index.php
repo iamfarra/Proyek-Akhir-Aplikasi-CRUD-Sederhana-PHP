@@ -54,7 +54,7 @@ session_start();
             //perulangan akan terus berjalan (menampilkan data) selama kondisi $query bernilai true
             while ($buku = $query->fetch_assoc()) {
                 /* fungsi fetch_assoc digunakan untuk mengambil data perulangan dalam bentuk array */
-                ?> <!--kode php di tutup untuk menyisipkan kode HTML yang akan di looping-->
+                ?> <!--kode php di tutup untuk menyisipkan kode HTML yang akan di lo oping-->
                 <tr>
                     <td><?php echo $no++ ?></td>
                     <td><?php echo $buku['judulBuku'] ?></td>

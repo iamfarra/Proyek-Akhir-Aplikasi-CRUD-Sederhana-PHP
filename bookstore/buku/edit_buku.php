@@ -1,5 +1,4 @@
 <?php
-
 include("../koneksi.php");
 //mengambil ID buku dari parameter URL
 $buku = $_GET['buku_id'];

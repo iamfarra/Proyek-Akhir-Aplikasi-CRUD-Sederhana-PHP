@@ -6,7 +6,7 @@
     <title>apk toko buku</title>
 </head>
 <body>
-    <h3>Tambah Data b uku</h3>
+    <h3>Tambah Data buku</h3>
     <form action="../buku/proses_tambah.php" method="POST">
         <table border="0">
             <tr>
@@ -22,7 +22,7 @@
                 <td><input type="number" name="harga"></td>
             </tr>
         </table>
-        <button type=""submit name="simpan">Simpan</button>
+        <button type="submit" name="simpan">Simpan</button>
     </form>
 </body>
 </html>
